@@ -1,0 +1,68 @@
+{
+  "info": {
+    "name": "Day 4 – GitHub API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Octocat User",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://api.github.com/users/octocat",
+          "protocol": "https",
+          "host": ["api", "github", "com"],
+          "path": ["users", "octocat"]
+        }
+      }
+    },
+    {
+      "name": "Repos Page 1",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://api.github.com/users/octocat/repos?page=1&per_page=5",
+          "protocol": "https",
+          "host": ["api", "github", "com"],
+          "path": ["users", "octocat", "repos"],
+          "query": [
+            { "key": "page", "value": "1" },
+            { "key": "per_page", "value": "5" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Repos Page 2",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://api.github.com/users/octocat/repos?page=2&per_page=5",
+          "protocol": "https",
+          "host": ["api", "github", "com"],
+          "path": ["users", "octocat", "repos"],
+          "query": [
+            { "key": "page", "value": "2" },
+            { "key": "per_page", "value": "5" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Repos Page 3",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://api.github.com/users/octocat/repos?page=3&per_page=5",
+          "protocol": "https",
+          "host": ["api", "github", "com"],
+          "path": ["users", "octocat", "repos"],
+          "query": [
+            { "key": "page", "value": "3" },
+            { "key": "per_page", "value": "5" }
+          ]
+        }
+      }
+    }
+  ]
+}

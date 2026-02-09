@@ -1,0 +1,57 @@
+{
+  "info": {
+    "_postman_id": "2e03dd1f-70b3-49b6-a507-26332e1f589c",
+    "name": "Day 4 – GitHub API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Octocat User",
+      "id": "61eccd07-84e9-4187-b626-8ab155ba76bf",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Repos Page 1",
+      "id": "f7efb6ed-531c-4923-bf33-e306401b6202",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Repos Page 2",
+      "id": "e893946c-6fee-4658-bf66-96629be31998",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Repos Page 3",
+      "id": "5dc0fd6a-dcda-4d5b-8db0-55fcbf1c7026",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}

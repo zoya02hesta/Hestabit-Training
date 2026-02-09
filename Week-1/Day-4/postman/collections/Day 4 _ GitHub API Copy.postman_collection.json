@@ -1,0 +1,130 @@
+{
+  "info": {
+    "_postman_id": "ce9e1f76-3381-4995-b3c6-ee4e8908ed09",
+    "name": "Day 4 – GitHub API Copy",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Octocat User",
+      "id": "6f9304ea-4934-4708-bdcf-ae4131069f77",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users/octocat",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users",
+            "octocat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Repos Page 1",
+      "id": "e12ad1ed-22a4-4bf1-acc4-62d3e998bab7",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users/octocat/repos?page=1&per_page=5",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users",
+            "octocat",
+            "repos"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "per_page",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Repos Page 2",
+      "id": "7fb4a535-287a-4dc7-bc5b-9ce170abbca0",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users/octocat/repos?page=2&per_page=5",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users",
+            "octocat",
+            "repos"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "2"
+            },
+            {
+              "key": "per_page",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Repos Page 3",
+      "id": "a869e137-c19b-4a25-b475-147b09abcc4c",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users/octocat/repos?page=3&per_page=5",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users",
+            "octocat",
+            "repos"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "3"
+            },
+            {
+              "key": "per_page",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+* Host api.github.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 20.207.73.85
+*   Trying 20.207.73.85:443...
+* Connected to api.github.com (20.207.73.85) port 443
+* ALPN: curl offers h2,http/1.1
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / X25519 / id-ecPublicKey
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.github.com
+*  start date: Jan  6 00:00:00 2026 GMT
+*  expire date: Apr  5 23:59:59 2026 GMT
+*  subjectAltName: host "api.github.com" matched cert's "*.github.com"
+*  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA DV E36
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+*   Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://api.github.com/users/octocat
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: api.github.com]
+* [HTTP/2] [1] [:path: /users/octocat]
+* [HTTP/2] [1] [user-agent: curl/8.5.0]
+* [HTTP/2] [1] [accept: */*]
+> GET /users/octocat HTTP/2
+> Host: api.github.com
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+* old SSL session ID is stale, removing
+< HTTP/2 200 
+< date: Mon, 09 Feb 2026 06:30:57 GMT
+< content-type: application/json; charset=utf-8
+< cache-control: public, max-age=60, s-maxage=60
+< vary: Accept,Accept-Encoding, Accept, X-Requested-With
+< etag: W/"f1ca9628aaed987dac356f6065380dade278323ea298477058044dee27bba8e4"
+< last-modified: Thu, 22 Jan 2026 12:27:42 GMT
+< x-github-media-type: github.v3; format=json
+< x-github-api-version-selected: 2022-11-28
+< access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+< access-control-allow-origin: *
+< strict-transport-security: max-age=31536000; includeSubdomains; preload
+< x-frame-options: deny
+< x-content-type-options: nosniff
+< x-xss-protection: 0
+< referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+< content-security-policy: default-src 'none'
+< server: github.com
+< accept-ranges: bytes
+< x-ratelimit-limit: 60
+< x-ratelimit-remaining: 56
+< x-ratelimit-reset: 1770619121
+< x-ratelimit-resource: core
+< x-ratelimit-used: 4
+< content-length: 1350
+< x-github-request-id: D216:EF014:7216AD:7FB919:69897F21
+< 
+* Connection #0 to host api.github.com left intact
