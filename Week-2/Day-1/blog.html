@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Simple semantic blog page using HTML5">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Semantic Blog</title>
+</head>
+<body>
+<header>
+  <h1>My Blog</h1>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#" tabindex="1">Home</a></li>
+      <li><a href="#" tabindex="2">Blog</a></li>
+      <li><a href="#" tabindex="3">About</a></li>
+      <li><a href="#" tabindex="4">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section aria-labelledby="latest-posts">
+    <h2 id="latest-posts">Latest Posts</h2>
+
+    <article>
+      <header>
+        <h3>Understanding Semantic HTML</h3>
+        <p>
+          <time datetime="2026-02-10">February 10, 2026</time>
+          by <strong>Zoya</strong>
+        </p>
+      </header>
+
+      <figure>
+  <img 
+    src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f"
+    alt="Laptop with code editor open showing HTML code"
+    width="400">
+  <figcaption>Clean and meaningful HTML structure</figcaption>
+</figure>
+
+
+      <p>
+        Semantic HTML helps improve accessibility, SEO, and code readability.
+        Tags like <code>article</code>, <code>section</code>, and <code>nav</code>
+        describe meaning instead of appearance.
+      </p>
+
+      <footer>
+        <a href="#">Read more</a>
+      </footer>
+    </article>
+
+    <article>
+  <header>
+    <h3>Why Accessibility Matters</h3>
+    <p>
+      <time datetime="2026-02-09">February 9, 2026</time>
+      by <strong>Zoya</strong>
+    </p>
+  </header>
+
+  <figure>
+    <img 
+      src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
+      alt="Person using screen reader for accessibility"
+      width="400">
+    <figcaption>Web accessibility for everyone</figcaption>
+  </figure>
+
+  <p>
+    Accessibility ensures that websites can be used by people with
+    disabilities. Semantic HTML plays a major role in screen readers
+    and keyboard navigation.
+  </p>
+
+  <footer>
+    <a href="#">Read more</a>
+  </footer>
+</article>
+
+
+  </section>
+
+</main>
+
+<aside aria-label="Sidebar">
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Zoya. I’m learning full-stack development and practicing
+      semantic HTML and accessibility.
+    </p>
+  </section>
+
+  <section>
+    <h2>Categories</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>DevOps</li>
+    </ul>
+  </section>
+
+</aside>
+
+<section aria-labelledby="newsletter">
+  <h2 id="newsletter">Subscribe to Newsletter</h2>
+
+  <form>
+    <label for="name">Name:</label><br>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      required 
+      aria-required="true"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      required><br><br>
+
+    <label for="topic">Favorite Topic:</label><br>
+    <select id="topic" name="topic">
+      <option>HTML</option>
+      <option>CSS</option>
+      <option>JavaScript</option>
+    </select><br><br>
+
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<section aria-labelledby="media">
+  <h2 id="media">Featured Video</h2>
+
+  <iframe 
+    width="560" 
+    height="315"
+    src="https://www.youtube.com/embed/ok-plXXHlWw"
+    title="Semantic HTML Explained"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<section aria-labelledby="audio">
+  <h2 id="audio">Podcast Episode</h2>
+
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+</section>
+
+
+<footer>
+  <p>&copy; 2026 My Semantic Blog</p>
+</footer>
+
+
+</body>
+</html>
