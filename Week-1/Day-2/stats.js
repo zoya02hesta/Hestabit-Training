@@ -19,14 +19,14 @@ const LOG_DIR = path.join(__dirname, "logs");
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 fs.mkdirSync(LOG_DIR, { recursive: true });
 
-function getMemoryMB() {
+function getMemoryMB() { 
   return (process.memoryUsage().rss / 1024 / 1024).toFixed(2);
 }
 
 function analyze(content) {
   return {
     chars: content.length,
-    lines: content.split("\n").length,
+    lines: content.split("\n").length, 
     words: content.trim().split(/\s+/).filter(Boolean).length
   };
 }

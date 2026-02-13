@@ -1,0 +1,29 @@
+#!/bin/sh
+
+echo "🔍 Running pre-commit checks..."
+
+# ❌ Block .env file (even if ignored)
+if [ -f .env ]; then
+  echo "❌ .env file detected! Commit blocked."
+  exit 1
+fi
+
+# ❌ Block log files
+if git status --porcelain | grep "logs/"; then
+  echo "❌ Log files detected! Commit blocked."
+  exit 1
+fi
+
+# ✔ Check JS formatting ONLY for Day-5 (POSIX safe)
+FILES=$(find Week-1/Day-5 -type f -name "*.js")
+
+if [ -n "$FILES" ]; then
+  npx prettier --check $FILES
+  if [ $? -ne 0 ]; then
+    echo "❌ JS formatting issues found in Day-5!"
+    exit 1
+  fi
+else
+  echo "ℹ️ No JS files found in Day-5, skipping Prettier"
+fi
+

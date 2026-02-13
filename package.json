@@ -1,0 +1,25 @@
+{
+  "name": "hestabit-training-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoya02hesta/Hestabit-Training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoya02hesta/Hestabit-Training/issues"
+  },
+  "homepage": "https://github.com/zoya02hesta/Hestabit-Training#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.8.1"
+  }
+}
