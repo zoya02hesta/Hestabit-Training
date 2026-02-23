@@ -1,11 +1,13 @@
 type BadgeProps = {
   children: React.ReactNode
   variant?: "online" | "offline" | "working" | "done" | "canceled"
+  className?: string
 }
 
 export default function Badge({
   children,
   variant = "online",
+  className = "",   // ✅ you forgot this
 }: BadgeProps) {
 
   const styles = {
@@ -17,7 +19,9 @@ export default function Badge({
   }
 
   return (
-    <span className={`text-xs font-medium px-3 py-1 rounded-full ${styles[variant]}`}>
+    <span
+      className={`text-xs font-medium px-3 py-1 rounded-full ${styles[variant]} ${className}`}
+    >
       {children}
     </span>
   )

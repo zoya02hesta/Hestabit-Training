@@ -1,14 +1,19 @@
-import Link from "next/link";
+"use client"
+
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 const navItems = [
-  { name: "Dashboard", icon: "📊" },
-  { name: "Tables", icon: "📋" },
-  { name: "Billing", icon: "💳" },
-  { name: "Profile", icon: "👤" },
-  { name: "Sign In", icon: "🔐" },
-];
+  { name: "Dashboard", icon: "📊", href: "/dashboard" },
+  { name: "Users", icon: "📋", href: "/dashboard/user" },
+  { name: "Billing", icon: "💳", href: "/dashboard/billing" },
+  { name: "Profile", icon: "👤", href: "/dashboard/profile" },
+  { name: "Sign In", icon: "🔐", href: "/login" },
+]
 
 export default function Sidebar() {
+  const pathname = usePathname()
+
   return (
     <aside className="w-64 h-screen bg-white shadow-lg border-r border-gray-200 p-6 fixed left-0 top-0">
       
@@ -21,17 +26,25 @@ export default function Sidebar() {
 
       {/* Nav Items */}
       <nav className="flex flex-col gap-2">
-        {navItems.map((item, index) => (
-          <Link
-            key={index}
-            href="#"
-            className="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition"
-          >
-            <span>{item.icon}</span>
-            <span className="font-medium">{item.name}</span>
-          </Link>
-        ))}
+        {navItems.map((item, index) => {
+          const isActive = pathname === item.href
+
+          return (
+            <Link
+              key={index}
+              href={item.href}
+              className={`flex items-center gap-3 px-4 py-3 rounded-lg transition ${
+                isActive
+                  ? "bg-blue-50 text-blue-600 font-semibold"
+                  : "text-gray-600 hover:bg-blue-50 hover:text-blue-600"
+              }`}
+            >
+              <span>{item.icon}</span>
+              <span>{item.name}</span>
+            </Link>
+          )
+        })}
       </nav>
     </aside>
-  );
+  )
 }
