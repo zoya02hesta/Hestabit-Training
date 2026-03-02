@@ -1,15 +1,15 @@
-const mongoose = require('mongoose')
-const config = require('../config')
-const logger = require('../utils/logger')
+import mongoose from "mongoose";
+import config from "../config/index.js";
+import logger from "../utils/logger.js";
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(config.mongoURI)
-    logger.info('✔ Database connected')
+    await mongoose.connect(config.mongoUri);
+    logger.info("✔ Database connected");
   } catch (error) {
-    logger.error('❌ Database connection failed')
-    process.exit(1)
+    logger.error("Database connection failed", error);
+    process.exit(1);
   }
-}
+};
 
-module.exports = connectDB
+export default connectDB;

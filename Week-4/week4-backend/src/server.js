@@ -1,3 +1,3 @@
-const loadApp = require('./loaders/app')
+import loadApp from "./loaders/app.js";
 
-loadApp()
+loadApp();
