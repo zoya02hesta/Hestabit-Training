@@ -4,18 +4,23 @@ import logger from "../utils/logger.js";
 import connectDB from "./db.js";
 import productRoutes from "../routes/product.routes.js";
 import errorMiddleware from "../middlewares/error.middleware.js";
+import { applySecurityMiddleware } from "../middlewares/security.js";
 
 const app = express();
 
 const loadApp = async () => {
-  // 1. Connect DB
+  // 1️⃣ Connect DB
   await connectDB();
 
-  // 2. Middlewares
-  app.use(express.json());
+  // 2️⃣ Body parser (ONLY ONCE)
+  app.use(express.json({ limit: "10kb" }));
+
+  // 3️⃣ Security middleware
+  applySecurityMiddleware(app);
+
   logger.info("✔ Middlewares loaded");
 
-  // 3. Routes
+  // 4️⃣ Routes
   app.get("/health", (req, res) => {
     res.json({ status: "OK" });
   });
@@ -24,21 +29,12 @@ const loadApp = async () => {
 
   logger.info("✔ Routes mounted");
 
-  // 4. Global Error Handler
+  // 5️⃣ Error handler
   app.use(errorMiddleware);
 
-  // 5. Start server
-  const server = app.listen(config.port, () => {
+  // 6️⃣ Start server
+  app.listen(config.port, () => {
     logger.info(`✔ Server started on port ${config.port}`);
-  });
-
-  // 6. Graceful shutdown
-  process.on("SIGTERM", () => {
-    logger.info("SIGTERM received. Shutting down...");
-    server.close(() => {
-      logger.info("Server closed");
-      process.exit(0);
-    });
   });
 };
 

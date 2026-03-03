@@ -6,8 +6,15 @@ import {
   updateProduct,
   deleteProduct
 } from "../controllers/product.controller.js";
+import { validate } from "../middlewares/validate.js";
+import { productSchema } from "../validations/product.schema.js";
 
 const router = express.Router();
+
+router.post("/", validate(productSchema), createProduct);
+router.put("/:id", validate(productSchema), updateProduct);
+
+
 
 router.post("/", createProduct);
 router.get("/", getProducts);
