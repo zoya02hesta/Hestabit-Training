@@ -1,7 +1,7 @@
 export const validate = (schema) => (req, res, next) => {
   const { error, value } = schema.validate(req.body, {
     abortEarly: false,
-    stripUnknown: true, // 🧼 payload whitelisting
+    stripUnknown: true, //  payload whitelisting
   });
 
   if (error) {

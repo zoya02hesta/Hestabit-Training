@@ -8,13 +8,13 @@ import hpp from "hpp";
 
 export const applySecurityMiddleware = (app) => {
 
-  // 🔹 Payload size limit
+  // Payload size limit
   app.use(express.json({ limit: "10kb" }));
 
-  // 🔹 Secure HTTP headers
+  // Secure HTTP headers
   app.use(helmet());
 
-  // 🔹 CORS Policy
+  //  CORS Policy
   app.use(
     cors({
       origin: "http://localhost:3000",
@@ -23,7 +23,7 @@ export const applySecurityMiddleware = (app) => {
     })
   );
 
-  // 🔹 Rate Limiting
+  //  Rate Limiting
   const limiter = rateLimit({
     windowMs: 15 * 60 * 1000,
     max: 100,
@@ -37,12 +37,12 @@ export const applySecurityMiddleware = (app) => {
 
   app.use(limiter);
 
-  // 🔹 Prevent NoSQL Injection
+  //Prevent NoSQL Injection
   app.use(mongoSanitize());
 
-  // 🔹 Prevent Parameter Pollution
+  //  Prevent Parameter Pollution
   app.use(hpp());
 
-  // 🔹 Prevent XSS
+  // Prevent XSS
   app.use(xss());
 };
