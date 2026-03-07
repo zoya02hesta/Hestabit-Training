@@ -1,0 +1,25 @@
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    volumes:
+      - mongo-data:/data/db
+
+  server:
+    build: ./server
+    container_name: server
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+
+  client:
+    build: ./client
+    container_name: client
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+
+volumes:
+  mongo-data:
