@@ -1,0 +1,54 @@
+version: "3.9"
+
+services:
+
+  mongo:
+    image: mongo
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  server:
+    build: ./server
+    restart: always
+    env_file:
+      - .env
+    depends_on:
+      - mongo
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  client:
+    build: ./client
+    restart: always
+    depends_on:
+      - server
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  nginx:
+    image: nginx
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./certs:/etc/nginx/certs
+    depends_on:
+      - client
+      - server
+
+volumes:
+  mongo_data:
