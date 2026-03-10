@@ -151,3 +151,23 @@ logs
 
 # OS files
 .DS_Store
+
+# Virtual Environment
+venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+
+# Data files (optional depending on project size)
+*.log
+
+# OS files
+.DS_Store
