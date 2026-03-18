@@ -18,7 +18,6 @@ const app = express();
 const loadApp = async () => {
 
   app.use(express.json({ limit: "10kb" }));
-  // Database connection
   app.use("/api/auth", authRoutes);
 
   app.use("/api/accounts", accountRoutes);
@@ -26,36 +25,29 @@ const loadApp = async () => {
 
   await connectDB();
 
-  // Request tracing
   app.use(requestTracer);
 
   
 
 
-  // Body parser
 
 
 
 
-  // Security middleware
   applySecurityMiddleware(app);
 
   logger.info("✔ Middlewares loaded");
 
-  // Health route
   app.get("/health", (req, res) => {
     res.json({ status: "OK" });
   });
 
-  // Routes
   app.use("/api/products", productRoutes);
 
   logger.info("✔ Routes mounted");
 
-  // Error handler
   app.use(errorMiddleware);
 
-  // Start server
   app.listen(config.port, () => {
     logger.info(`✔ Server started on port ${config.port}`);
   });

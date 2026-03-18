@@ -42,5 +42,5 @@ addBtn.addEventListener("click", () => {
   renderTodos();
 });
 
-// Initial load
+
 renderTodos();

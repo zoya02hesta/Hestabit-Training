@@ -1,4 +1,4 @@
-// debounce
+
 function debounce(fn, delay) {
   let timer;
   return function (...args) {
@@ -7,7 +7,7 @@ function debounce(fn, delay) {
   };
 }
 
-// throttle
+
 function throttle(fn, limit) {
   let inThrottle = false;
   return function (...args) {
@@ -19,7 +19,7 @@ function throttle(fn, limit) {
   };
 }
 
-// groupBy
+
 function groupBy(arr, key) {
   return arr.reduce((acc, item) => {
     const group = item[key];
@@ -32,5 +32,4 @@ function groupBy(arr, key) {
 
 function logError(error) {
   console.error(error);
-  // In real apps → send to server
 }

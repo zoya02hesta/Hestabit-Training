@@ -9,7 +9,7 @@ body {
   padding: 20px;
 }
 
-/* index page */
+
 .center {
   height: 100vh;
   display: flex;
@@ -26,7 +26,7 @@ body {
   text-decoration: none;
 }
 
-/* navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -48,14 +48,14 @@ button {
   cursor: pointer;
 }
 
-/* product grid */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
 }
 
-/* product card */
+
 .card {
   border: 1px solid #eee;
   padding: 10px;
@@ -92,7 +92,7 @@ button {
   font-weight: bold;
 }
 
-/* responsive */
+
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;

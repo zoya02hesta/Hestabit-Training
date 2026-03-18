@@ -5,7 +5,6 @@ const sortBtn = document.getElementById("sortBtn");
 let products = [];
 let sortedHigh = false;
 
-// Fetch products
 fetch("https://dummyjson.com/products")
   .then(res => res.json())
   .then(data => {
@@ -13,7 +12,6 @@ fetch("https://dummyjson.com/products")
     renderProducts(products);
   });
 
-// Render function
 function renderProducts(items) {
   productGrid.innerHTML = "";
 
@@ -32,7 +30,6 @@ function renderProducts(items) {
   });
 }
 
-// Search
 searchInput.addEventListener("input", () => {
   const value = searchInput.value.toLowerCase();
   const filtered = products.filter(p =>
@@ -41,7 +38,6 @@ searchInput.addEventListener("input", () => {
   renderProducts(filtered);
 });
 
-// Sort
 sortBtn.addEventListener("click", () => {
   sortedHigh = !sortedHigh;
 

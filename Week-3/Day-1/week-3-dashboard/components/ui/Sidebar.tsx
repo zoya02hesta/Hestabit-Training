@@ -17,14 +17,12 @@ export default function Sidebar() {
   return (
     <aside className="w-64 h-screen bg-white shadow-lg border-r border-gray-200 p-6 fixed left-0 top-0">
       
-      {/* Logo */}
       <div className="mb-10">
         <h2 className="text-lg font-bold text-blue-600">
           Purity UI
         </h2>
       </div>
 
-      {/* Nav Items */}
       <nav className="flex flex-col gap-2">
         {navItems.map((item, index) => {
           const isActive = pathname === item.href

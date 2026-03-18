@@ -105,7 +105,7 @@ export default function LandingContent() {
       What Our Users Say
     </h2>
 
-    {/** Testimonials Data */}
+    
     {(() => {
       const testimonials = [
         {

@@ -13,12 +13,10 @@ class ProductService {
 
     const filter = {};
 
-    // Soft delete control
     if (!includeDeleted || includeDeleted !== "true") {
       filter.deletedAt = null;
     }
 
-    // Search (regex on name + description)
     if (search) {
       filter.$or = [
         { name: { $regex: search, $options: "i" } },
@@ -26,14 +24,12 @@ class ProductService {
       ];
     }
 
-    // Price filtering
     if (minPrice || maxPrice) {
       filter.price = {};
       if (minPrice) filter.price.$gte = Number(minPrice);
       if (maxPrice) filter.price.$lte = Number(maxPrice);
     }
 
-    // Tags filtering
     if (tags) {
       const tagArray = tags.split(",");
       filter.tags = { $in: tagArray };

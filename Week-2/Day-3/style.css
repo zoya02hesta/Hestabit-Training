@@ -47,7 +47,7 @@ body {
   border: 1px solid #ddd;
 }
 
-/* Active state */
+
 .item.active .content {
   display: block;
 }
