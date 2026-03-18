@@ -1,15 +1,3 @@
-// import winston from "winston";
-
-// const logger = winston.createLogger({
-//   level: "info",
-//   transports: [
-//     new winston.transports.Console()
-//   ]
-// });
-
-// export default logger;
-
-
 import winston from "winston";
 import fs from "fs";
 import path from "path";

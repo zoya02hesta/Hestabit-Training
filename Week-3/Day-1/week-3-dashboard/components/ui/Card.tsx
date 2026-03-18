@@ -2,14 +2,14 @@ type CardProps = {
   title?: string
   subtitle?: string
   children: React.ReactNode
-  className?: string   // ✅ add this
+  className?: string   
 }
 
 export default function Card({
   title,
   subtitle,
   children,
-  className = "",   // ✅ and extract it here
+  className = "",  
 }: CardProps) {
   return (
     <div className={`bg-white rounded-2xl shadow-sm border p-6 ${className}`}>

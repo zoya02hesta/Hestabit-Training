@@ -2,7 +2,7 @@ import loadApp from "./loaders/app.js";
 import logger from "./utils/logger.js";
 import { v4 as uuidv4 } from "uuid";
 
-// Request Tracing Middleware
+
 export const requestTracer = (req, res, next) => {
   const requestId = uuidv4();
   req.requestId = requestId;
@@ -18,7 +18,7 @@ export const requestTracer = (req, res, next) => {
   next();
 };
 
-// Start App
+
 try {
   loadApp();
   logger.info("Server initialization successful");

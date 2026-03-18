@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from "uuid";
 
 export const requestTracer = (req, res, next) => {
   const requestId = uuidv4();
+  console.log("Request ID generated:", requestId); 
   req.requestId = requestId;
   res.setHeader("X-Request-ID", requestId);
   next();

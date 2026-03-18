@@ -7,7 +7,7 @@ type BadgeProps = {
 export default function Badge({
   children,
   variant = "online",
-  className = "",   // ✅ you forgot this
+  className = "",  
 }: BadgeProps) {
 
   const styles = {
