@@ -8,7 +8,6 @@ const worker = new Worker(
   async (job) => {
     console.log("Processing Email Job:", job.data);
 
-    // Simulate email sending
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
     console.log("Email Sent to:", job.data.email);

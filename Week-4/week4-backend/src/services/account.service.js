@@ -4,7 +4,6 @@ import jwt from "jsonwebtoken";
 import config from "../config/index.js";
 
 class AccountService {
-  // Register a new account
   async register({ firstName, lastName, email, password }) {
     const existing = await Account.findOne({ email });
     if (existing) throw new Error("Email already registered");
@@ -17,7 +16,6 @@ class AccountService {
     };
   }
 
-  // Login and return JWT
   async login({ email, password }) {
     const account = await Account.findOne({ email });
     if (!account) throw new Error("Invalid credentials");
@@ -38,7 +36,6 @@ class AccountService {
   return Account.find().select("-password");
 }
 
-  // Optional: get account by ID
   async getById(id) {
     return Account.findById(id);
   }
