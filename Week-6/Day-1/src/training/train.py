@@ -19,7 +19,7 @@ def train_models():
 
     models = {
         "LogisticRegression": LogisticRegression(max_iter=1000),
-        "RandomForest": RandomForestClassifier(),
+        "RandomForest": RandomForestClassifier(class_weight={0: 1, 1: 2})
         "XGBoost": XGBClassifier(eval_metric="logloss"),
         "NeuralNetwork": MLPClassifier(max_iter=500)
     }
