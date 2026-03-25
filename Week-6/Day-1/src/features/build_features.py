@@ -11,7 +11,7 @@ def load_data():
     return df
 
 
-def create_new_features(df):
+def build_features(df):
 
     # Example engineered features
     df["family_size"] = df["SibSp"] + df["Parch"]
@@ -59,6 +59,10 @@ def split_data(df):
     y = df["Survived"]
     X = df.drop("Survived", axis=1)
 
+    import joblib
+
+    joblib.dump(X.columns.tolist(), "src/features/feature_list.pkl")
+
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42
     )
@@ -70,7 +74,7 @@ def run_feature_pipeline():
 
     df = load_data()
 
-    df = create_new_features(df)
+    df = build_features(df)
 
     df = encode_categorical(df)
 
