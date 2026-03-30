@@ -1,15 +1,15 @@
 import pandas as pd
 
-# Load original dataset (RAW, not processed)
+# Load datasets
 train = pd.read_csv("src/data/raw/dataset.csv")
-
-# Load prediction logs
 logs = pd.read_csv("prediction_logs.csv")
 
-# Only check common columns
+# Common columns
 common_cols = [col for col in logs.columns if col in train.columns]
 
 drift_report = {}
+
+print("\n🔍 Drift Analysis Report\n")
 
 for col in common_cols:
     if train[col].dtype in ["int64", "float64"]:
@@ -18,7 +18,11 @@ for col in common_cols:
 
         drift = abs(train_mean - log_mean)
 
-        drift_report[col] = round(drift, 3)
+        drift_report[col] = round(drift, 4)
 
-print("Drift Report:")
-print(drift_report)
+        print(f"{col}: Drift = {drift:.4f}")
+
+        if drift > 0.1:
+            print(f"⚠️ Significant drift detected in {col}\n")
+
+print("\n✅ Drift check completed")

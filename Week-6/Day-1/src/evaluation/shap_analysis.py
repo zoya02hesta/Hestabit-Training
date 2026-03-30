@@ -1,48 +1,50 @@
 import shap
 import joblib
 import matplotlib.pyplot as plt
-import seaborn as sns
+import numpy as np
+import os
 
-from sklearn.metrics import confusion_matrix
 from src.features.build_features import run_feature_pipeline
 
 
-def run_shap():
+def run_shap_analysis():
+
+    os.makedirs("src/evaluation", exist_ok=True)
 
     # Load data
     X_train, X_test, y_train, y_test = run_feature_pipeline()
 
-    # Load trained model
+    # Load model
     model = joblib.load("src/models/best_model_tuned.pkl")
 
-    # =========================
-    # SHAP ANALYSIS
-    # =========================
-    explainer = shap.Explainer(model, X_train)
+    print("✅ Model loaded")
 
-    shap_values = explainer(X_test)
+    # Use LinearExplainer for Logistic Regression
+    explainer = shap.LinearExplainer(model, X_train)
+    shap_values = explainer.shap_values(X_test)
 
+    # -------------------------
+    # SHAP Summary Plot
+    # -------------------------
     shap.summary_plot(shap_values, X_test, show=False)
-
     plt.savefig("src/evaluation/shap_summary.png")
+    plt.close()
 
-    print("SHAP summary plot saved")
+    print("✅ SHAP summary plot saved")
 
-    # =========================
-    # ERROR ANALYSIS
-    # =========================
-    y_pred = model.predict(X_test)
+    # -------------------------
+    # SHAP Importance
+    # -------------------------
+    shap_importance = np.abs(shap_values).mean(axis=0)
 
-    cm = confusion_matrix(y_test, y_pred)
+    plt.figure(figsize=(10, 6))
+    plt.barh(range(len(shap_importance)), shap_importance)
+    plt.title("SHAP Feature Importance")
+    plt.tight_layout()
+    plt.savefig("src/evaluation/shap_importance.png")
 
-    plt.figure(figsize=(6,4))
-    sns.heatmap(cm, annot=True, fmt="d")
-    plt.title("Error Analysis Heatmap")
-
-    plt.savefig("src/evaluation/error_heatmap.png")
-
-    print("Error heatmap saved")
+    print("✅ SHAP feature importance saved")
 
 
 if __name__ == "__main__":
-    run_shap()
+    run_shap_analysis()
