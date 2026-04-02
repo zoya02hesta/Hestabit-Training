@@ -20,7 +20,9 @@ Command:
 ps aux
 
 Observation:
-Node server process is running inside the container.
+The Node.js server runs as the main process (PID 1), which means if it stops, the container exits.
+
+The container has its own process namespace, meaning processes inside the container are isolated from the host system.
 
 ## Monitoring processes
 
@@ -41,4 +43,6 @@ Command:
 docker logs day1-container
 
 Observation:
-Logs show server startup message.
+Docker captures logs from stdout/stderr of the main process, which can be accessed using docker logs.
+
+The container filesystem is ephemeral—any changes are lost if the container is removed unless volumes are used.

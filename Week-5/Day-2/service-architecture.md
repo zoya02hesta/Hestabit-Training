@@ -59,7 +59,7 @@ Even if the container stops or restarts, the database data remains stored.
 
 ## Docker Networking
 
-Docker Compose automatically creates a network for all services.
+Docker Compose creates a default bridge network where each service can communicate using its service name as a hostname.
 
 Communication flow:
 
