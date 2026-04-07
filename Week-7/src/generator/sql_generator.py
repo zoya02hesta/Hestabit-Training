@@ -1,42 +1,82 @@
-from transformers import pipeline
+from groq import Groq
+import os
 import re
 
 
 class SQLGenerator:
     def __init__(self):
-        # Initialize lightweight LLM (demo purpose)
-        self.llm = pipeline("text-generation", model="gpt2")
+        self.client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-    def generate_sql(self, question, schema):
+    def generate_sql(self, query, schema):
         prompt = f"""
-You are a SQL expert.
+You are a strict SQL generator.
 
-Schema:
+DATABASE SCHEMA:
 {schema}
 
-Rules:
-- Return ONLY a valid SQL query
-- No explanation
-- No repetition
-- Must include FROM clause
-- End query with ;
+RULES:
+- Use ONLY table: users
+- Allowed columns: id, name, age, income
+- NEVER invent columns
+- ONLY output SQL
+- NO explanation
+- MUST end with semicolon
 
-Question: {question}
+EXAMPLES:
+Q: count users
+A: SELECT COUNT(*) FROM users;
 
-SQL:
+Q: list all users
+A: SELECT * FROM users;
+
+Q: average income
+A: SELECT AVG(income) FROM users;
+
+Q: users older than 30
+A: SELECT * FROM users WHERE age > 30;
+
+Now generate SQL.
+
+Q: {query}
+A:
 """
 
-        # Generate response
-        result = self.llm(prompt, max_new_tokens=100, do_sample=False)
-        raw_output = result[0]["generated_text"]
+        response = self.client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0
+        )
 
-        # 🔥 Extract only first valid SQL query
-        match = re.search(r"(SELECT .*?;)", raw_output, re.IGNORECASE | re.DOTALL)
+        result = response.choices[0].message.content.strip()
+
+        # ✅ Extract SQL
+        match = re.search(r"(SELECT .*?;)", result, re.IGNORECASE | re.DOTALL)
 
         if match:
-            sql = match.group(1)
+            sql = match.group(1).strip()
         else:
-            # fallback if model fails
             sql = "SELECT * FROM users;"
 
-        return sql.strip()
+        # 🔒 SAFETY FILTER
+        if any(word in sql.lower() for word in ["drop", "delete", "update", "insert"]):
+            return "SELECT * FROM users;"
+
+        # 🔒 STRICT COLUMN CHECK
+        allowed_columns = ["id", "name", "age", "income"]
+
+        tokens = re.findall(r"\b[a-zA-Z_]+\b", sql.lower())
+
+        allowed_keywords = [
+            "select", "from", "where", "count", "avg", "min", "max", "sum",
+            "and", "or", ">", "<", "=", "*"
+        ]
+
+        for token in tokens:
+            if token not in allowed_columns and token not in allowed_keywords:
+                if token != "users":
+                    print(f"⚠️ Invalid token detected: {token}")
+                    return "SELECT * FROM users;"
+
+        return sql

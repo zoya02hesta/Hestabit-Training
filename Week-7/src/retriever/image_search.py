@@ -1,25 +1,38 @@
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer, util
+import torch
 
 
 class ImageSearch:
     def __init__(self, data):
         self.data = data
+        self.model = SentenceTransformer("clip-ViT-B-32")
 
-    def search_by_text(self, query_embedding, top_k=3):
-        embeddings = [item["embedding"] for item in self.data]
+    def search(self, query, top_k=2):
+        if not self.data:
+            return []
 
-        scores = cosine_similarity([query_embedding], embeddings)[0]
+        query_embedding = self.model.encode(query, convert_to_tensor=True)
 
-        top_indices = np.argsort(scores)[::-1][:top_k]
+        image_embeddings = torch.stack([
+            item["embedding"] if torch.is_tensor(item["embedding"])
+            else torch.tensor(item["embedding"])
+            for item in self.data
+        ])
 
-        return [self.data[i] for i in top_indices]
+        scores = util.cos_sim(query_embedding, image_embeddings)[0]
 
-    def search_by_image(self, image_embedding, top_k=3):
-        embeddings = [item["embedding"] for item in self.data]
+        top_results = torch.topk(scores, k=min(top_k, len(self.data)))
 
-        scores = cosine_similarity([image_embedding], embeddings)[0]
+        results = []
 
-        top_indices = np.argsort(scores)[::-1][:top_k]
+        for idx, score in zip(top_results.indices, top_results.values):
+            item = self.data[idx]
 
-        return [self.data[i] for i in top_indices]
+            results.append({
+                "image": item.get("image_path", ""),
+                "caption": item.get("caption", ""),
+                "ocr": item.get("ocr", ""),
+                "score": float(score)
+            })
+
+        return results
