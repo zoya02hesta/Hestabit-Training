@@ -1,0 +1,1080 @@
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is a variable?", "output": "A variable is a container for storing data values."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Answer the question", "input": "What is Python?", "output": "Python is a high-level programming language used for web development, AI, and automation."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Solve step by step", "input": "If a car travels 100 km in 2 hours, what is the speed?", "output": "Speed = Distance / Time = 100 / 2 = 50 km/h."}
+{"instruction": "Extract structured information", "input": "Name: Zoya Fatima, Age: 22, Role: ML Intern", "output": "{\"name\": \"Zoya Fatima\", \"age\": 22, \"role\": \"ML Intern\"}"}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Answer the question", "input": "What is an API?", "output": "An API is a way for applications to communicate with each other."}
+{"instruction": "Solve step by step", "input": "If 5 workers build a wall in 10 days, how many days for 10 workers?", "output": "More workers reduce time. Answer: 5 days."}
