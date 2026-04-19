@@ -17,12 +17,12 @@ def run_ingestion():
     for file in tqdm(os.listdir(DATA_PATH)):
         path = os.path.join(DATA_PATH, file)
 
-        # ✅ Skip folders
+        
         if os.path.isdir(path):
             print(f"Skipping folder: {file}")
             continue
 
-        # ✅ Skip unsupported files
+        
         if not file.endswith((".txt", ".pdf", ".docx", ".csv")):
             print(f"Skipping unsupported file: {file}")
             continue

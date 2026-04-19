@@ -7,11 +7,14 @@ class ImageSearch:
         self.data = data
         self.model = SentenceTransformer("clip-ViT-B-32")
 
-    def search(self, query, top_k=2):
+    def search(self, query=None, image_input=None, top_k=2):
         if not self.data:
             return []
 
-        query_embedding = self.model.encode(query, convert_to_tensor=True)
+        if image_input is not None:
+            query_embedding = self.model.encode(image_input, convert_to_tensor=True)
+        else:
+            query_embedding = self.model.encode(query, convert_to_tensor=True)
 
         image_embeddings = torch.stack([
             item["embedding"] if torch.is_tensor(item["embedding"])

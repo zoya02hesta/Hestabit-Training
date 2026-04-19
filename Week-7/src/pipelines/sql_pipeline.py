@@ -7,7 +7,7 @@ class SQLPipeline:
         self.generator = generator
         self.schema = schema
 
-    # 🔒 Validate SQL
+    
     def validate_sql(self, sql):
         sql_lower = sql.lower()
 
@@ -19,12 +19,7 @@ class SQLPipeline:
 
         return True
 
-    # 🗄 Execute SQL
-    # def execute(self, sql):
-    #     cursor = self.conn.cursor()
-    #     cursor.execute(sql)
-    #     return cursor.fetchall()
-
+    
     def execute(self, sql):
         cursor = self.conn.cursor()
         try:
@@ -33,14 +28,26 @@ class SQLPipeline:
         except Exception as e:
             return f"SQL Error: {str(e)}"
 
-    # 📊 Summarize results
-    def summarize(self, results):
+    
+    def summarize(self, question, results):
         if not results:
             return "No results found."
 
-        return f"Returned {len(results)} rows: {results[:5]}"
+        try:
+            from groq import Groq
+            import os
+            client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+            prompt = f"Given the user question '{question}' and the following dataset returned from the database query: {results[:5]}, provide a natural language response answering the question. Be concise."
+            response = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0
+            )
+            return response.choices[0].message.content.strip()
+        except:
+            return f"Returned {len(results)} rows: {results[:5]}"
 
-    # 🚀 Main pipeline
+    
     def run(self, question):
         sql = self.generator.generate_sql(question, self.schema)
 
@@ -50,6 +57,10 @@ class SQLPipeline:
 
         results = self.execute(sql)
 
-        summary = self.summarize(results)
+        summary = self.summarize(question, results)
 
-        return summary
+        return {
+            "sql": sql,
+            "raw": results,
+            "summary": summary
+        }

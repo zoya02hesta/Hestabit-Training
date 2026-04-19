@@ -24,4 +24,7 @@ class FaissStore:
 
     def search(self, query_embedding, k=5):
         D, I = self.index.search(query_embedding, k)
-        return [self.texts[i] for i in I[0]]
+        return [{"text": self.texts[i], "score": float(D[0][idx])} for idx, i in enumerate(I[0])]
+
+    def get_all_embeddings(self):
+        return np.array([self.index.reconstruct(i) for i in range(self.index.ntotal)])

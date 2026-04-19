@@ -2,38 +2,33 @@ import time
 import os
 from PIL import Image
 
-# TEXT + IMAGE
+
 from sentence_transformers import SentenceTransformer
 from src.retriever.text_retriever import TextRetriever
 from src.retriever.image_search import ImageSearch
 
-# SQL
+
 from src.generator.sql_generator import SQLGenerator
 from src.pipelines.sql_pipeline import SQLPipeline
 from src.utils.schema_loader import load_schema
 
 
 
-# ✅ EVALUATION
+
 from src.evaluation.rag_eval import RAGEvaluator
 
 
 class App:
     def __init__(self):
-        # ---------------- TEXT ----------------
+        
         self.model = SentenceTransformer("clip-ViT-B-32")
-        self.text_data = [
-            "Credit underwriting evaluates risk before lending.",
-            "Banks analyze income, credit score, and repayment history.",
-            "Underwriting helps prevent loan defaults."
-        ]
-        self.text_retriever = TextRetriever(self.text_data)
+        self.text_retriever = TextRetriever()
         self.memory = []
-        # ---------------- IMAGE ----------------
+        
         self.image_data = self.load_images("src/data/images")
         self.image_searcher = ImageSearch(self.image_data)
 
-        # ---------------- SQL ----------------
+        
         
         print("⚡ Using Groq for SQL...")
 
@@ -81,35 +76,43 @@ class App:
 
     def load_images(self, image_folder):
         import os
-
+        from src.pipelines.image_ingest import ImageIngestor
+        
+        ingestor = ImageIngestor()
         image_data = []
 
         for file in os.listdir(image_folder):
             if file.lower().endswith((".png", ".jpg", ".jpeg")):
                 path = os.path.join(image_folder, file)
-
-                image = Image.open(path).convert("RGB")
-
-                embedding = self.model.encode(image, convert_to_tensor=True)
-
-                caption = file.replace("_", " ").split(".")[0]
-
-                image_data.append({
-                    "image_path": path,
-                    "caption": caption,
-                    "ocr": "",
-                    "embedding": embedding.cpu().numpy()  # convert to numpy for storage
-                })
+                
+                try:
+                    result = ingestor.process_image(path)
+                    
+                    # Convert embedding to numpy if needed
+                    emb = result["embedding"]
+                    if hasattr(emb, "cpu"):
+                        emb = emb.cpu().numpy()
+                        
+                    image_data.append({
+                        "image_path": result["image_path"],
+                        "caption": result["caption"],
+                        "ocr": result.get("ocr_text", ""),
+                        "embedding": emb
+                    })
+                except Exception as e:
+                    print(f"Error processing {path}: {e}")
 
         return image_data
 
-    def ask_image(self, query):
-        context = " ".join([m["query"] for m in self.memory])
-        refined_query = f"{context} {query}"
-
-        results = self.image_searcher.search(refined_query)
-
-        self.update_memory(query, results)
+    def ask_image(self, query=None, image_input=None):
+        if image_input:
+            results = self.image_searcher.search(query=None, image_input=image_input)
+            self.update_memory("Uploaded Image", results)
+        else:
+            context = " ".join([m["query"] for m in self.memory if isinstance(m["query"], str)])
+            refined_query = f"{context} {query}".strip()
+            results = self.image_searcher.search(query=refined_query)
+            self.update_memory(query, results)
 
         return {
             "type": "image",
@@ -122,11 +125,13 @@ class App:
     def ask_sql(self, query):
         start_time = time.time()
 
-        result = self.sql_pipeline.run(query)
+        result_dict = self.sql_pipeline.run(query)
 
         print(f"⏱ Time taken: {time.time() - start_time:.2f}s")
 
-        if "Returned" in str(result):
+        summary = result_dict.get("summary", "")
+
+        if "Returned" in str(summary) or len(result_dict.get("raw", [])) > 0:
             confidence = 0.9
             hallucination = False
         else:
@@ -135,7 +140,9 @@ class App:
 
         return {
             "type": "sql",
-            "data": result,
+            "data": summary,
+            "sql": result_dict.get("sql", ""),
+            "raw": result_dict.get("raw", []),
             "confidence": confidence,
             "hallucination": hallucination
         }
@@ -163,35 +170,62 @@ class App:
 
         return {"status": "feedback recorded"}
 
-    # ---------------- ROUTER ----------------
-    # def ask(self, query):
-    #     query_lower = query.lower()
 
-    #     if any(word in query_lower for word in ["image", "photo", "picture", "show"]):
-    #         return self.ask_image(query)
-
-    #     elif any(word in query_lower for word in ["count", "list", "show users", "how many", "total"]):
-    #         return self.ask_sql(query)
-
-    #     else:
-    #         return self.ask_text(query)
 
     def ask(self, query):
         result = self.text_retriever.retrieve(query)
 
-        confidence = max(result["scores"])
+        confidence = max(result["scores"]) if result["scores"] else 0.0
+        context = result["data"]
+        
+        try:
+            from groq import Groq
+            client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+            
+            # Initial generation
+            prompt = f"Given the following context from our documents, answer the question naturally. Context:\n{context}\n\nQuestion: {query}"
+            response = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0
+            )
+            answer = response.choices[0].message.content.strip()
+            
+            # Reflection step
+            eval_result = self.evaluator.evaluate(query, answer, context)
+            
+            if eval_result.get("hallucination", False) or eval_result.get("context_score", 1.0) < 0.6:
+                refine_prompt = f"""
+                You previously answered the question: "{query}"
+                Using the context: "{context}"
+                
+                Your previous answer was: "{answer}"
+                
+                Critique: Your answer was detected as either containing hallucinations or lacking faithfulness to the context. 
+                Please refine your answer to strictly rely ONLY on the provided context. Do not invent information.
+                """
+                refine_response = client.chat.completions.create(
+                    model="llama-3.1-8b-instant",
+                    messages=[{"role": "user", "content": refine_prompt}],
+                    temperature=0
+                )
+                answer = refine_response.choices[0].message.content.strip()
+                # Re-evaluate post-refinement
+                eval_result = self.evaluator.evaluate(query, answer, context)
+                
+            confidence = eval_result.get("confidence", confidence)
+            hallucination = eval_result.get("hallucination", False)
+                
+        except Exception as e:
+            print("Error in ask:", e)
+            answer = f"Based on retrieved knowledge:\n{context}"
+            hallucination = confidence < 0.2
 
-        hallucination = confidence < 0.5
-
-        if hallucination:
-            refined_query = f"Give a more detailed answer for: {query}"
-            result = self.text_retriever.retrieve(refined_query)
-
-        self.update_memory(query, result["data"])
+        self.update_memory(query, answer)
 
         return {
             "type": "text",
-            "data": result["data"],
+            "data": answer,
             "confidence": confidence,
             "hallucination": hallucination
         }
