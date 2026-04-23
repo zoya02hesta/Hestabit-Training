@@ -1,19 +1,21 @@
-import os
 import sys
 import logging
 import warnings
+import os
+from dotenv import load_dotenv
 
-# Absolute Silence: Must happen before other imports
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
-os.environ["TRANSFORMERS_VERBOSITY"] = "error"
-os.environ["TRANSFORMERS_NO_ADVISORY_WARNINGS"] = "1"
-warnings.filterwarnings("ignore")
-logging.getLogger("transformers").setLevel(logging.ERROR)
-logging.getLogger("autogen").setLevel(logging.ERROR)
 
-import argparse
-from dotenv import load_dotenv
+# Silence secondary loggers
+logging.getLogger("autogen.oai.client").setLevel(logging.ERROR)
+logging.getLogger("autogen").setLevel(logging.ERROR)
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
+
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
+
 from .orchestrator import NexusOrchestrator
 
 def main():
@@ -27,7 +29,6 @@ def main():
     print("\nNEXUS AI - Multi-Agent Framework")
     print("-" * 35 + "\n")
 
-    # Get goal from CLI or default
     goal = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else None
     
     if not goal:

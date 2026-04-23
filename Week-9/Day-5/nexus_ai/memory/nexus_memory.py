@@ -1,10 +1,3 @@
-"""
-nexus_ai/memory/nexus_memory.py
-
-NEXUS AI Memory - integrates Day 4 memory systems.
-Provides unified interface for all 3 memory layers.
-"""
-
 import os, sys, json, sqlite3, pickle
 from datetime import datetime
 
