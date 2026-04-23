@@ -154,6 +154,7 @@ logs
 
 # Virtual Environment
 venv/
+.venv/
 .env/
 
 # Python

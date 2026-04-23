@@ -1,0 +1,30 @@
+The binary search code has been generated and is as follows: 
+import pandas as pd
+
+def binary_search(arr, target):
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+# Load data from CSV
+DATA_PATH = '/home/zoyafatima/Desktop/Hestabit Training /Week-9/Day-3/data/sales.csv'
+df = pd.read_csv(DATA_PATH)
+
+# Assuming we want to search for a specific value in a column
+column_name = 'sales'  # replace with your desired column name
+arr = sorted(df[column_name].tolist())
+target = 1000  # replace with your desired target value
+
+result = binary_search(arr, target)
+if result != -1:
+    print(f"Target {target} found at index {result}")
+else:
+    print(f"Target {target} not found in the array")
+However, there was an error in the code. The column name 'sales' does not exist in the given CSV file.
