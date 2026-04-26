@@ -31,9 +31,9 @@ if os.path.exists(scaler_path):
     scaler = joblib.load(scaler_path)
 
 
-# -------------------------
+
 # Input Schema
-# -------------------------
+
 class PassengerInput(BaseModel):
     Pclass: int
     Sex: str
@@ -44,25 +44,23 @@ class PassengerInput(BaseModel):
     Embarked: str
 
 
-# -------------------------
-# Health Check
-# -------------------------
+
 @app.get("/health")
 def health():
     return {"status": "OK"}
 
 
-# -------------------------
-# Home
-# -------------------------
+
+
+
 @app.get("/")
 def home():
     return {"message": "Titanic Survival Prediction API 🚀"}
 
 
-# -------------------------
+
 # Feature Engineering Function (REUSABLE)
-# -------------------------
+
 def process_input(df):
     df = df.copy()
 
@@ -83,16 +81,16 @@ def process_input(df):
 
     df = df.reindex(columns=feature_columns, fill_value=0)
 
-    # Apply scaling if available
+
     if scaler:
         df = scaler.transform(df)
 
     return df
 
 
-# -------------------------
+
 # Predict Route
-# -------------------------
+
 @app.post("/predict")
 def predict(data: PassengerInput):
 
