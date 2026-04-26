@@ -154,7 +154,6 @@ logs
 
 # Virtual Environment
 venv/
-.venv/
 .env/
 
 # Python
@@ -172,3 +171,9 @@ logs/
 
 # OS files
 .DS_Store
+
+Week-9/Day-1/.venv/
+Week-9/.venv/
+
+Week-8/Day-3/quantized
+Week-8/Day-5/model
