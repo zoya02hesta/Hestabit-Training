@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
-# Silence secondary loggers
 logging.getLogger("autogen.oai.client").setLevel(logging.ERROR)
 logging.getLogger("autogen").setLevel(logging.ERROR)
 logging.getLogger("transformers").setLevel(logging.ERROR)
@@ -22,19 +21,16 @@ def main():
     load_dotenv()
     
     if not os.environ.get("GROQ_API_KEY"):
-        print("\n[ERROR] GROQ_API_KEY not found in environment.")
-        print("Please export it or add it to your .env file.")
+        print("\n[ERROR] GROQ_API_KEY not found.")
         return
 
-    print("\nNEXUS AI - Multi-Agent Framework")
-    print("-" * 35 + "\n")
+    print("\nNEXUS AI")
+    print("-" * 10 + "\n")
 
     goal = " ".join(sys.argv[1:]) if len(sys.argv) > 1 else None
     
     if not goal:
-        print("[TIP] You can pass your goal as a command line argument.")
-        print("Example: python3 -m nexus_ai.main 'Design a futuristic city plan'")
-        goal = input("\n[Nexus AI] Enter your goal: ")
+        goal = input("\n[Nexus AI] Enter goal: ")
 
     orchestrator = NexusOrchestrator()
     orchestrator.run(goal)

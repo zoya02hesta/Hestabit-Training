@@ -1,18 +1,10 @@
 import os, sys, json, sqlite3, pickle
 from datetime import datetime
-
 from ..config import MEMORY_DIR, TOP_K_RECALL
 
-# Long-term SQLite memory
 DB_PATH = os.path.join(MEMORY_DIR, "nexus_memory.db")
 
 class NexusMemory:
-    """
-    Unified memory for NEXUS AI.
-    Stores agent outputs, facts, and task history in SQLite.
-    Optionally uses FAISS for semantic recall if available.
-    """
-
     def __init__(self):
         os.makedirs(MEMORY_DIR, exist_ok=True)
         self._init_db()
@@ -51,7 +43,6 @@ class NexusMemory:
         conn.close()
 
     def _init_vector_store(self):
-        """Try to load FAISS. Gracefully degrade if not installed."""
         self.vector_enabled = False
         self.index          = None
         self.meta           = []
@@ -76,7 +67,7 @@ class NexusMemory:
             self._meta_path  = meta_path
             print(f" [NexusMemory] FAISS enabled - {self.index.ntotal} vectors")
         except ImportError:
-            print("  [NexusMemory] FAISS not installed - vector memory disabled")
+            print("  [NexusMemory] FAISS not installed")
 
     def _conn(self):
         conn = sqlite3.connect(DB_PATH)
@@ -86,7 +77,6 @@ class NexusMemory:
     def _now(self):
         return datetime.now().isoformat()
 
-    # Storage Methods
     def save_task(self, session_id: str, goal: str, status: str = "running"):
         conn = self._conn()
         conn.execute(
@@ -96,28 +86,35 @@ class NexusMemory:
         conn.commit(); conn.close()
 
     def update_task_status(self, session_id: str, status: str):
-        conn = self._conn()
-        conn.execute(
-            "UPDATE tasks SET status=? WHERE session_id=?", (status, session_id)
-        )
-        conn.commit(); conn.close()
+        try:
+            conn = self._conn()
+            conn.execute(
+                "UPDATE tasks SET status=? WHERE session_id=?", (status, session_id)
+            )
+            conn.commit()
+            conn.close()
+        except Exception as e:
+            print(f" [DB ERROR] update_task_status failed: {e}")
 
     def save_agent_output(self, session_id: str, result: dict):
-        conn = self._conn()
-        conn.execute(
-            "INSERT INTO agent_outputs (session_id, agent, task, output, success, elapsed, timestamp) VALUES (?,?,?,?,?,?,?)",
-            (session_id, result["agent"], result["task"][:200],
-             result["output"][:3000], int(result["success"]),
-             result.get("elapsed", 0), self._now())
-        )
-        conn.commit(); conn.close()
-
-        # Also embed into FAISS
-        if self.vector_enabled and result["success"]:
-            self._embed_and_store(
-                f"[{result['agent']}] {result['output'][:400]}",
-                {"agent": result["agent"], "session": session_id}
+        try:
+            conn = self._conn()
+            conn.execute(
+                "INSERT INTO agent_outputs (session_id, agent, task, output, success, elapsed, timestamp) VALUES (?,?,?,?,?,?,?)",
+                (session_id, result["agent"], result["task"][:200],
+                 result["output"][:3000], int(result["success"]),
+                 result.get("elapsed", 0), self._now())
             )
+            conn.commit()
+            conn.close()
+
+            if self.vector_enabled and result["success"]:
+                self._embed_and_store(
+                    f"[{result['agent']}] {result['output'][:400]}",
+                    {"agent": result["agent"], "session": session_id}
+                )
+        except Exception as e:
+            print(f" [DB ERROR] save_agent_output failed: {e}")
 
     def save_fact(self, session_id: str, fact: str, source: str = ""):
         conn = self._conn()
@@ -127,12 +124,8 @@ class NexusMemory:
         )
         conn.commit(); conn.close()
 
-    # Recall methods
     def recall(self, query: str) -> str:
-        """Search all memory layers and return context string."""
         parts = []
-
-        # Vector recall
         if self.vector_enabled and self.index.ntotal > 0:
             results = self._vector_search(query, top_k=TOP_K_RECALL)
             if results:
@@ -141,7 +134,6 @@ class NexusMemory:
                     lines.append(f"- {r['text'][:200]}")
                 parts.append("\n".join(lines))
 
-        # SQLite fact recall
         conn  = self._conn()
         facts = conn.execute(
             "SELECT fact, source FROM facts ORDER BY id DESC LIMIT 5"
@@ -155,16 +147,6 @@ class NexusMemory:
 
         return "\n\n".join(parts)
 
-    def get_past_tasks(self, limit: int = 5) -> list[dict]:
-        conn  = self._conn()
-        rows  = conn.execute(
-            "SELECT goal, status, timestamp FROM tasks ORDER BY id DESC LIMIT ?",
-            (limit,)
-        ).fetchall()
-        conn.close()
-        return [dict(r) for r in rows]
-
-    # FAISS Internals
     def _embed_and_store(self, text: str, metadata: dict):
         vec = self._model.encode([text]).astype(self._np.float32)
         self.index.add(vec)

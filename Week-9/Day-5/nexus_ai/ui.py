@@ -51,7 +51,9 @@ def apply_custom_styles():
             padding: 20px;
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
-        /* Premium Button Styles */
+        div[data-testid="stStatus"] label, .stExpander label, .stExpander p {
+            color: #00d4ff !important;
+        }
         div.stButton > button:first-child, div.stDownloadButton > button:first-child {
             background: linear-gradient(45deg, #00d4ff, #0055ff);
             color: white !important;
@@ -68,7 +70,6 @@ def apply_custom_styles():
             background: linear-gradient(45deg, #00e5ff, #0066ff);
             color: white !important;
         }
-        /* Fix for secondary buttons/download text visibility */
         .stButton button p, .stDownloadButton button p {
             color: white !important;
         }
@@ -77,4 +78,4 @@ def apply_custom_styles():
 
 def render_header():
     st.markdown('<div class="main-header">NEXUS AI</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">Premium Multi-Agent Workspace powered by AutoGen</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">Premium Multi-Agent Workspace</div>', unsafe_allow_html=True)
