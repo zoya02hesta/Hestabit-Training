@@ -10,11 +10,11 @@
     "strategy": {
       "Fixed": 256
     },
-    "direction": "Left",
+    "direction": "Right",
     "pad_to_multiple_of": null,
-    "pad_id": 32000,
+    "pad_id": 2,
     "pad_type_id": 0,
-    "pad_token": "<|endoftext|>"
+    "pad_token": "</s>"
   },
   "added_tokens": [
     {
@@ -40,106 +40,7 @@
       "content": "</s>",
       "single_word": false,
       "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": false
-    },
-    {
-      "id": 32000,
-      "content": "<|endoftext|>",
-      "single_word": false,
-      "lstrip": false,
       "rstrip": false,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32001,
-      "content": "<|assistant|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32002,
-      "content": "<|placeholder1|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32003,
-      "content": "<|placeholder2|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32004,
-      "content": "<|placeholder3|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32005,
-      "content": "<|placeholder4|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32006,
-      "content": "<|system|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32007,
-      "content": "<|end|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32008,
-      "content": "<|placeholder5|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32009,
-      "content": "<|placeholder6|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
-      "normalized": false,
-      "special": true
-    },
-    {
-      "id": 32010,
-      "content": "<|user|>",
-      "single_word": false,
-      "lstrip": false,
-      "rstrip": true,
       "normalized": false,
       "special": true
     }
@@ -165,6 +66,12 @@
     "type": "TemplateProcessing",
     "single": [
       {
+        "SpecialToken": {
+          "id": "<s>",
+          "type_id": 0
+        }
+      },
+      {
         "Sequence": {
           "id": "A",
           "type_id": 0
@@ -173,9 +80,21 @@
     ],
     "pair": [
       {
+        "SpecialToken": {
+          "id": "<s>",
+          "type_id": 0
+        }
+      },
+      {
         "Sequence": {
           "id": "A",
           "type_id": 0
+        }
+      },
+      {
+        "SpecialToken": {
+          "id": "<s>",
+          "type_id": 1
         }
       },
       {
@@ -185,7 +104,17 @@
         }
       }
     ],
-    "special_tokens": {}
+    "special_tokens": {
+      "<s>": {
+        "id": "<s>",
+        "ids": [
+          1
+        ],
+        "tokens": [
+          "<s>"
+        ]
+      }
+    }
   },
   "decoder": {
     "type": "Sequence",

@@ -1,0 +1,23 @@
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
+from config import MODEL_PATH, DEVICE
+
+tokenizer = None
+model = None
+
+def load_model():
+    global tokenizer, model
+    
+    if model is None:
+        print("🔄 Loading model...")
+        
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+        model = AutoModelForCausalLM.from_pretrained(
+            MODEL_PATH,
+            torch_dtype=torch.float16,
+            device_map="auto"
+        )
+        
+        print("✅ Model loaded")
+    
+    return tokenizer, model
