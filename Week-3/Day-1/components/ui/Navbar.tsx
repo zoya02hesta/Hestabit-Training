@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Input from "./Input";
 
 export default function Navbar() {
   return (
@@ -17,11 +18,12 @@ export default function Navbar() {
 
       <div className="flex items-center gap-4">
 
-        <input
+      <Input type = "text" placeholder="Search..." ></Input>
+        {/* <input
           type="text"
           placeholder="Search..."
           className="px-4 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+        /> */}
 
         <button className="p-2 rounded-lg hover:bg-gray-100">
           🔔

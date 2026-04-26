@@ -35,7 +35,7 @@ export default function LandingContent() {
             </Link>
 
             <Link
-              href="/about"
+              href="/dashboard/profile"
               className="px-6 py-3 border border-gray-300 rounded-xl hover:bg-gray-100 transition"
             >
               Learn More
